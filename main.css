@@ -26,78 +26,7 @@ body {
   margin: auto;
   position: relative;
 }
-/*Navigation Bar Styling*/
-#navbar {
-  display: inline-block;
-  border-bottom-width: medium;
-  border-bottom-style: ridge;
-  border-bottom-color: #FFFFFF;
-  height: auto;
-  background: url(resources/translucent_white50.png);
-  background-size: contain;
-  font-family: inherit;
-  position: relative;
-  z-index: 99;
-}
-.navlinks a {
-  color: #000000;
-  font-size: 2.5em;
-  text-align: center;
-  padding-left: .5em;
-  padding-right: .5em;
-  text-decoration: underline;
-  border-radius: 5%;
-  text-shadow: -1px -1px 0 #cccccc, 1px -1px 0 #cccccc, 1px 1px 0 #cccccc, 1px 1px 0 #cccccc;
-	white-space:nowrap;
-}
-.navlinks a:link, a:visited {
-  color: #000;
-}
-.navlinks a:hover {
-  color: #03dffc;
-  text-shadow:
-    -1px -1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff, 1px 1px 0 #fff;
-}
-.navlinks a:active {
-  color: #029EB3;
-}
-.dropdown {
-  display: inline-block;
-	
-}
 
-.dropdown .dropbtn {
-  text-align: center;
-  font-family: inherit;
-  margin: 0;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background: url("resources/sky-wallpaper-high-definition.jpg");
-  background-size: cover;
-	background-repeat: no-repeat;
-	background-position: bottom;
-  box-shadow: 0 1em 1em 1em rgba(0, 0, 0, 0.5);
-  overflow-y: auto;
-  border-bottom: medium ridge rgba(255, 255, 255, 1.00);
-  z-index: 99;
-	padding-bottom:5%;
-	padding-top: 2%;
-	width: 100%;
-	left:0;
-}
-.dropdown-content a {
-  text-align: center;
-  font-size: 5em;
-	text-shadow:
-    -1px -1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff, 1px 1px 0 #fff;
-	padding:1%;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-/*
 
 
 */
@@ -144,8 +73,8 @@ body {
   margin-bottom: 1em
 }
 #pgtitle {
-  color: #000000;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-decoration: underline;
   font-size: 4.7rem;
   text-align: center;
