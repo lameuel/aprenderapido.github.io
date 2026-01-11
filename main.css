@@ -15,7 +15,7 @@ body {
   margin: auto;
   position: relative;
 }
-#pgtitle {
+.pgtitle {
   color: #ffffff;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-decoration: underline;
