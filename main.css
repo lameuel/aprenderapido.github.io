@@ -8,19 +8,19 @@ body {
 }
 #title {
   color: #ffffff;
+  display: block;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: 6rem;
   z-index: 100;
-  margin: auto;
-  position: relative;
-	width: 100%;
+  text-align: center;
 }
 .pgtitle {
   color: #ffffff;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-decoration: underline;
-  font-size: 4.7rem;
+  font-size: 2rem;
   text-align: center;
-	display: block;
+  display: block;
+  padding-top: 3rem;
 }
