@@ -1,1 +1,30 @@
-
+@font-face {
+  font-family: 'Hynings Handwriting';
+  src: url('resources/HyningsHandwritingV2-Regular.ttf');
+}
+body {
+  background: #000000;
+  font-family: 'Times New Roman', Times, serif, 'arial';
+  margin: auto;
+}
+#title {
+  display: block;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: none;
+  font-size: 3rem;
+  z-index: 100;
+  text-align: center;
+  margin: auto;
+}
+.pgtitle {
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: underline;
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  padding-top: 3rem;
+}
+.menu {
+  font-size: 2rem;
+}
