@@ -7,11 +7,10 @@ body {
   font-family: 'Times New Roman', Times, serif, 'arial';
 }
 #title {
-  color: #ffffff;
   display: block;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-decoration: none;
-  font-size: 6rem;
+  font-size: 4rem;
   z-index: 100;
   text-align: center;
 }
