@@ -9,10 +9,15 @@ body {
 #title {
   display: block;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  text-decoration: none;
-  font-size: 4rem;
+  font-size: 3rem;
   z-index: 100;
   text-align: center;
+  margin: 1rem;
+}
+#menu {
+  margin: auto;
+  margin-top: 6rem;
+  width: 70vw;
 }
 .pgtitle {
   color: #ffffff;
@@ -22,4 +27,26 @@ body {
   text-align: center;
   display: block;
   padding-top: 3rem;
+}
+.menuentry {
+  margin: auto;
+  font-size: 4rem;
+  text-align: center;
+}
+a:link {
+  color:white;
+}
+a:visited {
+  color: #baf7ff;
+}
+a:hover {
+  color: #03dffc;
+}
+.menucolumn {
+  margin: auto;
+  display: inline-block;
+  border-style: ridge;
+  border-color: white;
+  text-align: center;
+  width: 30vw;
 }
