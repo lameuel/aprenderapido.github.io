@@ -20,10 +20,9 @@ body {
   margin-top: 6rem;
 }
 .menucolumn {
-  margin: auto;
+  padding: 2rem;
   display: inline-block;
-  border-style: ridge;
-  border-color: white;
+  border: 1rem ridge #dbd9d5;
   text-align: center;
 }
 .pgtitle {
