@@ -5,6 +5,7 @@
 body {
   background: #000000;
   font-family: 'Times New Roman', Times, serif, 'arial';
+  text-align: center;
 }
 #title {
   display: block;
@@ -17,7 +18,13 @@ body {
 #menu {
   margin: auto;
   margin-top: 6rem;
-  width: 70vw;
+}
+.menucolumn {
+  margin: auto;
+  display: inline-block;
+  border-style: ridge;
+  border-color: white;
+  text-align: center;
 }
 .pgtitle {
   color: #ffffff;
@@ -46,11 +53,4 @@ a:hover {
   color: #03dffc;
   text-decoration: underline;
 }
-.menucolumn {
-  margin: auto;
-  display: inline-block;
-  border-style: ridge;
-  border-color: white;
-  text-align: center;
-  width: 30vw;
-}
+
