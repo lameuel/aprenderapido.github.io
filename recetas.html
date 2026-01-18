@@ -4,14 +4,15 @@
 <link rel="stylesheet" href="main.css">
 
 		<script>
-                if (window.innerHeight < window.innerWidth) {
-                    window.location.replace("../index.html");
+                if (window.innerHeight > window.innerWidth) {
+                    window.location.replace("../mobile/recetas.html");
 				}
         </script>
 <title>aprenderapido.info</title>
 </head>
 <body>
 	<div id="title"><h1 style="margin: auto;"><a style="color: #ffffff; text-decoration: none;" href="https://aprenderapido.info/">aprenderapido.info</a></h1></div>
+	
 	<iframe src="content/recetas.html" onload="this.before(...(this.contentWindow.document.body||this.contentWindow.document).children);this.remove()"></iframe>
 
 </body>
