@@ -9,7 +9,7 @@ body {
 }
 #title {
   display: block;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
   font-size: 3rem;
   z-index: 100;
   text-align: center;
@@ -27,9 +27,9 @@ body {
 }
 .pgtitle {
   color: #ffffff;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 6rem;
   text-align: center;
   display: block;
   padding-top: 3rem;
@@ -58,8 +58,8 @@ a:hover {
   color: #000000;
   text-align: center;
   font-size: 2em;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 2rem;
+  margin-left: 2rem;
   margin-top: .2em;
   padding: .3em;
   -webkit-user-select: none;
@@ -71,7 +71,7 @@ a:hover {
 }
 .para {
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   font-size: 1.2em;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
@@ -85,3 +85,4 @@ a:hover {
   text-align: center;
   text-decoration: underline;
   font-style: italic;
+}
