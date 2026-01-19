@@ -54,6 +54,21 @@ a:hover {
 }
 
 /* Recetas */
+.body {
+  color: #000000;
+  text-align: center;
+  font-size: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: .2em;
+  padding: .3em;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 2000px;
+}
 .para {
   color: #ffffff;
   text-align: left;
