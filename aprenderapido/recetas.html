@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+
+		<script>
+                if (window.innerHeight > window.innerWidth) {
+                    window.location.replace("../mobile/recetas.html");
+				}
+        </script>
+<title>aprenderapido.info</title>
+</head>
+<body>
+	<div id="title"><h1 style="margin: auto;"><a style="color: #ffffff; text-decoration: none;" href="index.html">aprenderapido.info</a></h1></div>
+	<div class="pgtitle">Recetas Varias</div>
+	<div class="body">
+		<iframe src="content/recetas.html" onload="this.before(...(this.contentWindow.document.body||this.contentWindow.document).children);this.remove()"></iframe>
+	</div>
+</body>
+</html>
+ 
