@@ -7,10 +7,18 @@ body {
   font-family: 'Times New Roman', Times, serif, 'arial';
   text-align: center;
 }
+#titleindex {
+  display: block;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  font-size: 3rem;
+  z-index: 100;
+  text-align: center;
+  margin: 1rem;
+}
 #title {
   display: block;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  font-size: 3rem;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  font-size: 1.5rem;
   z-index: 100;
   text-align: center;
   margin: 1rem;
@@ -27,9 +35,9 @@ body {
 }
 .pgtitle {
   color: #ffffff;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 7rem;
   text-align: center;
   display: block;
   padding-top: 3rem;
@@ -51,5 +59,41 @@ a:visited {
 a:hover {
   color: #03dffc;
   text-decoration: underline;
+}
+/* Recetas */
+.body {
+  color: #000000;
+  text-align: center;
+  font-size: 2em;
+  margin: auto;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 2000px;
+  padding-left:1vw;
+  padding-right: 1vw;
+}
+.para {
+  color: #98c8ce;
+  text-align: left;
+  font-size: 3rem;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.subtitle {
+  display: block;
+  font-size: 7rem;
+  text-align: center;
+  font-style: italic;
+}
+.subtitle2 {
+  text-decoration: underline;
+  font-style:italic;
+  font-size: 4rem;
 }
 
