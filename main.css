@@ -77,9 +77,9 @@ a:hover {
   padding-right: 10rem;
 }
 .para {
-  color: #ffffff;
+  color: #98c8ce;
   text-align: left;
-  font-size: 1.2em;
+  font-size: 3rem;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -91,4 +91,9 @@ a:hover {
   font-size: 7rem;
   text-align: center;
   font-style: italic;
+}
+.subtitle2 {
+  text-decoration: underline;
+  font-style:italic;
+  font-size: 4rem;
 }
