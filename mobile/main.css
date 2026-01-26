@@ -80,11 +80,11 @@ body {
 #menu {
   margin: auto;
   margin-top: 6rem;
+  border: 1rem ridge #dbd9d5;
 }
 .menucolumn {
   padding: 2rem;
   display: inline-block;
-  border: 1rem ridge #dbd9d5;
   text-align: center;
 }
 .pgtitle {
