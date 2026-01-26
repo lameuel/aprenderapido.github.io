@@ -24,8 +24,7 @@ body {
   font-size: 1.5rem;
   z-index: 100;
   text-align: center;
-  margin-bottom: 1rem;
-  padding-bottom:3vh;
+  padding-bottom:2vh;
 }
 #title a:link {
   color:white;
@@ -50,6 +49,33 @@ body {
 #titleindex a:hover {
   color: #03dffc;
   text-decoration: none;
+}
+#topofpage a:link {
+  color:#98c8ce;
+  text-decoration: none;
+}
+#topofpage a:visited {
+  color:#98c8ce;
+  text-decoration: none;
+}
+#topofpage a:hover {
+  color: #03dffc;
+  text-decoration: none;
+}
+#topofpage {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-image: url(resources/arrowbuttonup.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: fit-content;
+  margin-left: auto; 
+  margin-right: 20vw;
+  font-size: 2rem;
+  position:sticky;
+  top:0;
+  z-index:101;
+  padding-top: 1.5%;
 }
 #menu {
   margin: auto;
