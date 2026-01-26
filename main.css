@@ -24,7 +24,7 @@ body {
   font-size: 1.5rem;
   z-index: 100;
   text-align: center;
-  padding-bottom:2vh;
+  padding-bottom:1vh;
 }
 #title a:link {
   color:white;
@@ -142,6 +142,7 @@ a:hover {
   margin: auto;
 }
 .subtitle {
+  color:#98c8ce;
   display: block;
   font-size: 7rem;
   text-align: center;
