@@ -138,6 +138,8 @@ a:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  max-width: 30vw;
+  margin: auto;
 }
 .subtitle {
   display: block;
