@@ -80,7 +80,10 @@ body {
 #menu {
   margin: auto;
   margin-top: 6rem;
-  border: 1rem ridge #dbd9d5;;
+  margin-bottom: 6rem;
+  max-width:90vw;
+  border: 3rem ridge white;
+  width: fit-content;
 }
 .menucolumn {
   padding: 2rem;
