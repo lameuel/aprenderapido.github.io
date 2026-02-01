@@ -78,12 +78,19 @@ body {
 }
 #menu {
   margin: auto;
-  margin-top: 6rem;
-  border: 1rem ridge #dbd9d5;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 2rem ridge white;
 }
 .menucolumn {
-  padding: 2rem;
+  padding: 1rem;
   display: inline-block;
+  text-align: center;
+  margin: auto;
+}
+.menuentry {
+  margin: auto;
+  font-size: 4rem;
   text-align: center;
 }
 .pgtitle {
@@ -94,12 +101,6 @@ body {
   text-align: center;
   display: block;
   margin-bottom:5vh;
-}
-.menuentry {
-  margin: auto;
-  font-size: 4rem;
-  text-align: center;
-
 }
 a:link {
   color:white;
