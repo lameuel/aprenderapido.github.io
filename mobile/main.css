@@ -12,10 +12,11 @@ body {
   position:sticky;
   display: block;
   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-  font-size: 3rem;
+  font-size: 4rem;
   z-index: 100;
   text-align: center;
   padding-bottom:1vh;
+  margin:0;
 }
 #title a:link {
   color:white;
@@ -60,8 +61,8 @@ body {
   background-size: contain;
   background-position: center;
   max-width: fit-content;
-  right: 0;
-  font-size: 2rem;
+  right: 5vw;
+  font-size: 5rem;
   position:sticky;
   top:0;
   z-index:101;
@@ -83,18 +84,18 @@ body {
 }
 .menuentry {
   margin: auto;
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
 }
-a:link {
+.menuentry a:link {
   color:white;
   text-decoration: none;
 }
-a:visited {
+.menuentry a:visited {
   color: #baf7ff;
   text-decoration: none;
 }
-a:hover {
+.menuentry a:hover {
   color: #03dffc;
   text-decoration: underline;
 }
@@ -109,7 +110,7 @@ h1 {
 }
 h2 {
   font-weight: normal;
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
   margin: auto;
   text-align: center;
