@@ -13,7 +13,7 @@ body {
   font-size: 3rem;
   z-index: 100;
   text-align: center;
-  margin: 1rem;
+  margin:0;
 }
 #title {
   background:black;
@@ -79,8 +79,8 @@ body {
 }
 #menu {
   margin: auto;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   max-width:90vw;
   border: 3rem ridge white;
   width: fit-content;
