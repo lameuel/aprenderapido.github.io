@@ -168,6 +168,8 @@ a:hover {
   max-width: 70vw;
   margin: auto;
 }
+
+/**Biblia**/
 .parabiblia {
   color: #98c8ce;
   text-align: left;
@@ -179,4 +181,25 @@ a:hover {
   user-select: none;
   max-width: 60vw;
   margin: auto;
+}
+.hidden {
+  color:#98c8ce;
+  font-size: 4rem;
+  text-align: center;
+  font-style: italic;
+  width: fit-content;
+  margin: auto;
+}
+.intro {
+  color: #98c8ce;
+  text-align: left;
+  font-size: 3rem;
+  max-width: 95vw;
+  margin: auto;
+  max-width: 60vw;
+}
+.hidden:hover {
+  color: #03dffc;
+  text-decoration: underline;
+  cursor: pointer;
 }
