@@ -6,21 +6,13 @@ body {
   background: #000000;
   font-family: 'Times New Roman', Times, serif, 'arial';
 }
-#titleindex {
-  display: block;
-  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-  font-size: 3rem;
-  z-index: 100;
-  text-align: center;
-  margin: 1rem;
-}
 #title {
   background:black;
   top:0;
   position:sticky;
   display: block;
   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-  font-size: 1.5rem;
+  font-size: 3rem;
   z-index: 100;
   text-align: center;
   padding-bottom:1vh;
@@ -81,6 +73,7 @@ body {
   margin-top: 3rem;
   margin-bottom: 3rem;
   border: 3rem ridge white;
+  text-align: center;
 }
 .menucolumn {
   padding: 1rem;
@@ -92,15 +85,6 @@ body {
   margin: auto;
   font-size: 4rem;
   text-align: center;
-}
-.pgtitle {
-  color: #ffffff;
-  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-  text-decoration: underline;
-  font-size: 6rem;
-  text-align: center;
-  display: block;
-  margin-bottom:5vh;
 }
 a:link {
   color:white;
@@ -114,6 +98,44 @@ a:hover {
   color: #03dffc;
   text-decoration: underline;
 }
+h1 {
+  margin: auto;
+  color: #ffffff;
+  text-decoration: none;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  z-index: 100;
+  text-align: center;
+  font-size:5rem;
+}
+h2 {
+  font-weight: normal;
+  font-size: 3.5rem;
+  color: white;
+  margin: auto;
+  text-align: center;
+  text-decoration:underline;
+}
+h3 {
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+h4 {
+  font-size: 4rem;
+  color: #98c8ce;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0;
+}
+h5 {
+ font-weight: normal;
+ font-size: 3rem;
+ color: #98c8ce;
+ text-align: center;
+ margin: 0;
+}
 /* Recetas */
 .body {
   -webkit-user-select: none;
@@ -121,6 +143,7 @@ a:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  width: 100vw;
 }
 .para {
   color: #98c8ce;
@@ -131,18 +154,6 @@ a:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-.subtitle {
-  display: block;
-  font-size: 5.5rem;
-  text-align: center;
-  font-style: italic;
-  color:#98c8ce;
-}
-.subtitle2 {
-  text-decoration: underline;
-  font-style:italic;
-  font-size: 4rem;
 }
 .paraproverbios {
   color: #98c8ce;
@@ -155,3 +166,41 @@ a:hover {
   user-select: none;
 }
 
+/**Biblia**/
+.hidden {
+  color:#98c8ce;
+  font-size: 3rem;
+  text-align: center;
+  font-style: italic;
+  width: fit-content;
+  margin: auto;
+}
+.parabiblia {
+  color: #98c8ce;
+  text-align: left;
+  font-size: 2.5rem;
+  margin: auto;
+}
+.hidden:hover {
+  color: #03dffc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.chapter {
+  color:#98c8ce;
+  text-align: center;
+  display: block;
+  font-size:3rem;
+}
+.subtitle {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color:#98c8ce;
+  font-weight: normal;
+}
+.subtitle2 {
+  text-decoration: underline;
+  font-style:italic;
+  font-size: 4rem;
+}
