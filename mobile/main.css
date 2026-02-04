@@ -192,14 +192,14 @@ h5 {
   display: block;
   font-size:4rem;
 }
-.subtitle {
+.subtitlebiblia {
   display: block;
   text-align: center;
   font-style: italic;
   color:#98c8ce;
   font-weight: normal;
 }
-.subtitle2 {
+.subtitlerecetas {
   text-decoration: underline;
   font-style:italic;
   font-size: 4rem;

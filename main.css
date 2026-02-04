@@ -117,7 +117,51 @@ a:hover {
   color: #03dffc;
   text-decoration: underline;
 }
-
+h2 {
+  color: #ffffff;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  text-decoration: underline;
+  font-size: 7rem;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom:0;
+}
+h3 {
+  color:white;
+  font-size:4rem;
+  font-weight:normal;
+  margin-top:0;
+  margin-bottom:0;
+}
+h4 {
+  font-size: 7rem;
+  color: #98c8ce;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0;
+}
+h5 {
+ font-weight: normal;
+ font-size: 3rem;
+ color: #98c8ce;
+ text-align: center;
+ margin: 0;
+}
+.chapter {
+  color:#98c8ce;
+  text-align: center;
+  display: block;
+  font-size:5rem;
+  font-weight:normal;
+}
+.subtitlebiblia {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color:#98c8ce;
+  font-weight: normal;
+  font-size:3rem;
+}
 /* Recetas */
 .body {
   color: #000000;
@@ -144,14 +188,7 @@ a:hover {
   max-width: 70vw;
   margin: auto;
 }
-.subtitle {
-  color:#98c8ce;
-  display: block;
-  font-size: 7rem;
-  text-align: center;
-  font-style: italic;
-}
-.subtitle2 {
+.subtitlerecetas {
   text-decoration: underline;
   font-style:italic;
   font-size: 4rem;
