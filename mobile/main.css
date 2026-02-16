@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Hynings Handwriting';
-  src: url('resources/HyningsHandwritingV2-Regular.ttf');
+  src: url('../resources/HyningsHandwritingV2-Regular.ttf');
 }
 body {
   background: #000000;
@@ -155,6 +155,100 @@ h5 {
   -ms-user-select: none;
   user-select: none;
 }
+/**Contact Form**/
+.form {
+  margin: auto;
+  width: 90vw;
+  border-radius: 10px;
+  background-image: linear-gradient(55deg, rgba(3, 223, 252, .8)40%, rgba(3, 223, 252, 0)70%);
+  padding: 1vw;
+}
+#message {
+  font-size: 3rem
+}
+label {
+  font-size: 4rem;
+  text-align: left;
+  display: block;
+}
+input[type=text], select, textarea {
+  font-family: hynings handwriting;
+  font-size: 4rem;
+  height: 4rem;
+  width: 100%;
+  padding: 12px;
+  border: 1.5px inset #ccc;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  font-size: 4rem;
+  height: 4rem;
+  font-family: hynings handwriting;
+  width: 100%;
+  padding: 12px;
+  border: 1.5px inset #ccc;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  resize: vertical;
+}
+input[type=submit] {
+  display: block;
+  background-image: linear-gradient(140deg, rgba(3, 223, 252, .5)10%, rgba(3, 223, 252, .5), rgba(3, 223, 252, 0));
+  color: black;
+  font: inherit;
+  font-size: 3.5vw;
+  width: 15vw;
+  height: 5vw;
+  margin: auto;
+  border: 3px outset;
+  border-radius: 15px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a04;
+}
+
+/*Form Received Page Styling*/
+
+#gracias {
+  color: #98c8ce;
+   font-size: 6rem;
+  text-align: center;
+}
+#graciaspara {
+  margin-top: 5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  padding: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.graciaslink {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+a.graciaslink:link, a:visited {
+  color: #98c8ce;
+}
+a.graciaslink:hover {
+  color: #03dffc;
+}
+a.graciaslink:active {
+  color: #029EB3;
+}
+
+/**Proverbios**/
+
 .paraproverbios {
   color: #98c8ce;
   text-align: center;

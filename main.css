@@ -203,7 +203,7 @@ h5 {
   padding: 1vw;
 }
 #message {
-  font-size: 3vw
+  font-size: 3rem
 }
 label {
   font-size: 4rem;
@@ -212,8 +212,8 @@ label {
 }
 input[type=text], select, textarea {
   font-family: hynings handwriting;
-  font-size: 3vw;
-  height: 1.2em;
+  font-size: 4rem;
+  height: 4rem;
   width: 100%;
   padding: 12px;
   border: 1.5px inset #ccc;
@@ -224,8 +224,8 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 input[type=email], select, textarea {
-  font-size: 3vw;
-  height: 1.2em;
+  font-size: 4rem;
+  height: 4rem;
   font-family: hynings handwriting;
   width: 100%;
   padding: 12px;
@@ -257,7 +257,7 @@ input[type=submit]:hover {
 
 #gracias {
   color: #98c8ce;
-   font-size: 6vw;
+   font-size: 6rem;
   text-align: center;
 }
 #graciaspara {
