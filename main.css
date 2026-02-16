@@ -193,6 +193,9 @@ h5 {
   font-style:italic;
   font-size: 4rem;
 }
+label {
+  color:#98c8ce;
+}
 .paraproverbios {
   color: #98c8ce;
   text-align: center;
