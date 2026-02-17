@@ -10,7 +10,7 @@ body {
 #titleindex {
   display: block;
   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-  font-size: 3rem;
+  font-size: 2vw;
   z-index: 100;
   text-align: center;
   margin:0;
@@ -21,7 +21,7 @@ body {
   position:sticky;
   display: block;
   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-  font-size: 1.5rem;
+  font-size: 3vh;
   z-index: 100;
   text-align: center;
   padding-bottom:1vh;
@@ -79,14 +79,14 @@ body {
 }
 #menu {
   margin: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
   max-width:90vw;
-  border: 3rem ridge white;
-  width: fit-content;
+  border: 5vw ridge white;
+  width: 80vw;
 }
 .menucolumn {
-  padding: 2rem;
+  padding: 2vw;
   display: inline-block;
   text-align: center;
 }
@@ -101,7 +101,7 @@ body {
 }
 .menuentry {
   margin: auto;
-  font-size: 4rem;
+  font-size: 3.5vw;
   text-align: center;
 
 }
